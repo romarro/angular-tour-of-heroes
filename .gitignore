@@ -2,3 +2,4 @@ node_modules/
 src/dist/
 src/app/**/*.js
 src/app/**/*.map
+.vscode/
