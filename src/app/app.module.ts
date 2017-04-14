@@ -28,6 +28,10 @@ import { AppComponent }  from './app.component';
       {
         path : 'dashboard',
         component : DashboardComponent
+      },
+      {
+        path:'detail/:id',
+        component : HeroDetailComponent
       }
     ])
   ],
