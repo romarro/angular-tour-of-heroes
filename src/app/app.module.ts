@@ -15,6 +15,7 @@ import { DashboardComponent } from './dashboard.component';
 import { HeroService } from './hero.service';
 
 import { AppComponent }  from './app.component';
+import { HeroSearchComponent } from "./hero-search.component";
 
 
 
@@ -30,7 +31,8 @@ import { AppComponent }  from './app.component';
     AppComponent,
     HeroDetailComponent,
     DashboardComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroSearchComponent
   ],
   providers : [HeroService],
   bootstrap: [ AppComponent ]
